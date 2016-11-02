@@ -1,0 +1,125 @@
+body {
+    font-family: 'Rajdhani-Regular';
+    color: #C0C0C0;
+}
+
+.img_right {
+    float: right;
+    z-index: 1;
+    width: 48%;
+}
+
+.img_left {
+    width: 52%;
+    height: 1220px;
+    position: absolute;
+    z-index: 1;
+    float: left;
+}
+
+.intro {
+    position: absolute;
+    z-index: 2;
+    font-size: 150px;
+    text-align: center;
+    left: 135px;
+    font-weight: 700;
+    letter-spacing: 20px;
+}
+
+.bring {
+    margin-top: 210px;
+}
+
+.him {
+    margin-top: -55px;
+}
+
+.home {
+    margin-top: -65px;
+    font-weight: 550;
+    letter-spacing: 25px;
+}
+
+.starring {
+    position: absolute;
+    z-index: 2;
+    text-align: left;
+    left: 250px;
+    font-size: 38px;
+}
+
+.matt {
+    margin-top: 950px;
+    margin-bottom: 10px;
+}
+
+.the {
+    transform: rotate(270deg);
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: -90px;
+}
+
+.martian {
+    font-size: 100px;
+    font-weight: bolder;
+    margin-top: -120px;
+    margin-left: -45px;
+    margin-bottom: 0;
+    text-shadow: #7a7a7a 4px 3px 0;
+}
+
+.intro>p, .martian>p {
+    color: white;
+}
+
+.credits {
+    position: absolute;
+    z-index: 2;
+    margin-top: 1100px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width: 50%;
+    font-family: 'Rajdhani-Light';
+    align-items: center;
+    border: 0;
+}
+
+.credits>p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.produced, .based_upon, .screenplay, .directed {
+    text-align: right;
+    font-size: 10px;
+    font-family: 'Rajdhani-Light';
+    flex-shrink: 1;
+}
+
+.produced>p, .based_upon>p, .screenplay>p, .directed>p {
+    margin: 0;
+}
+
+.date {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    top: 1150px;
+    left: 300px;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: 'Rajdhani-Regular';
+    src: url('fonts/Rajdhani-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Rajdhani-Light';
+    src: url('fonts/Rajdhani-Light.ttf');
+}
